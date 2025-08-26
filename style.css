@@ -1,0 +1,73 @@
+/* Cascading Style Sheet */
+
+/* * { --> CSS reset
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}*/
+#container{
+	background-color:#C09955;
+	border: #3B3D52 groove 15px;
+	width:50%;
+	max-width:600px;
+	min-width:500px;
+	margin-top:10px;
+	margin-left:20px;
+	padding-left:10px;
+	padding-right:10px;
+}
+html,body{
+	margin:0;
+	padding:0; /*Css reset !*/
+}
+h1{
+	color: black;
+	font-size:40px;
+	border: #D5C093 outset 4px;
+	font-family:Matrix;
+	padding:4px;
+	text-decoration:sans-serif;
+
+}
+spam{
+	color: black;
+	font-size:25px;
+	font-weight:600;
+}
+#dark {
+	
+	border:#414B5F ridge 10px;
+}
+hr{
+	border: solid 3px;
+}
+.d1{
+	padding:3px;
+	border: #A54B29 solid 7px;
+	margin:1px 9px;
+	background-color: #E1D4C1;
+}
+ul{
+	padding-left:5px;
+	list-style:none;
+	font-size:17px;
+	font-family:Helvetica;
+}    
+#horizontal-rule{
+	border: solid 1px;
+}
+#main{
+	font-size:24px;
+}
+#attack{
+	font-weight:700;
+	font-size:24px;
+}
+#last{
+	font-size:13px;
+	padding-left:20px;
+}
+a{
+	text-decoration:none;
+	color:#91100E;
+}
